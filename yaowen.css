@@ -1,0 +1,71 @@
+.conText{
+	color: black;
+	font: 15px;
+	margin: 0px 20px;
+	border: #666666 solid 1px;
+}
+div.bottom {
+    background-color: var(--bottom_backgroundColor);
+	clear: both;
+    height: 80px;
+	width: 1791px;
+	color: #000000;
+}
+
+div.bottom ul.bootomNav {
+    list-style-type: none;
+    margin-left: 25%;
+}
+
+div.bottom ul.bootomNav li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+/* 设置间隔点 */
+div.bottom ul.bootomNav li.point {
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    margin-top: 40px;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+div.bottom ul.bootomNav li a {
+    margin-top: 40px;
+    /* 设置链接内容显示的格式*/
+    /* 把链接显示为块元素可使整个链接区域可点击 */
+    display: block;
+    color: white;
+    /* 去除下划线 */
+    text-decoration: none;
+    width: auto;
+    /* 字体 */
+    font-family: var(--nav_fontTypeface);
+    font-size: var(--nav_fontSize);
+    font-weight: var(--nav_fontWeight);
+	color: #000000;
+}
+
+div.bottom2 {
+    background-color: var(--bottom_backgroundColor);
+    height: 120px;
+    margin-top: 1px;
+}
+
+.bottom2 p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.p{
+	color: white;
+}
+.h{
+	color: #ffffff;
+}
